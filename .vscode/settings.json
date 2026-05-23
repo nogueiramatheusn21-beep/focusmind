@@ -1,0 +1,8 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "libs/jfreechart-1.5.6.jar",
+        "libs/jcalendar-1.4.jar",
+        "libs/openpdf-1.3.39.jar"
+    ]
+}

@@ -1,0 +1,22 @@
+[Setup]
+AppName=FocusMind
+AppVersion=1.0
+DefaultDirName={pf}\FocusMind
+DefaultGroupName=FocusMind
+OutputDir=.
+OutputBaseFilename=SetupFocusMind
+Compression=lzma
+SolidCompression=yes
+SetupIconFile=logo.ico
+
+[Files]
+Source: "SistemaEstudos.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "SistemaEstudos.jar"; DestDir: "{app}"; Flags: ignoreversion
+Source: "libs\*"; DestDir: "{app}\libs"; Flags: ignoreversion recursesubdirs createallsubdirs
+
+[Icons]
+Name: "{group}\FocusMind"; Filename: "{app}\SistemaEstudos.exe"
+Name: "{commondesktop}\FocusMind"; Filename: "{app}\SistemaEstudos.exe"
+
+[Run]
+Filename: "{app}\SistemaEstudos.exe"; Description: "Abrir FocusMind"; Flags: nowait postinstall skipifsilent

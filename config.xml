@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\User\sistemas-estudos\SistemaEstudos.jar</jar>
+  <outfile>C:\Users\User\sistemas-estudos\SistemaEstudos.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\User\sistemas-estudos\logo.ico</icon>
+  <classPath>
+    <mainClass>src.Main</mainClass>
+    <cp>libs/jcalendar-1.4.jar</cp>
+    <cp>libs/jfreechart-1.5.6.jar</cp>
+    <cp>libs/openpdf-1.3.39.jar</cp>
+    <cp>libs/mysql-connector-j-9.7.0.jar</cp>
+  </classPath>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>26</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>
